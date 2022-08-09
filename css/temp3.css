@@ -113,7 +113,7 @@ ul{
 }
 .dots{
     position: absolute;
-    background-image: url(https://raw.githubusercontent.com/ElzeroWebSchool/HTML_And_CSS_Template_Three/main/imgs/dots.png);
+    background-image: url(../imgs/dots.png);
     height: 180px;
     width: 200px;
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@ header .mega-menu .links-menu .links .link:hover::before{
     transform: translateX(-50%);
     bottom: 30px;
 }
-.landing .land-txt a i{
+.landing .land-txt a svg{
     color: var(--main-color);
     font-size: 30px;
     transition: var(--main-transition);
@@ -518,7 +518,7 @@ header .mega-menu .links-menu .links .link:hover::before{
     color: var(--main-color);
     font-weight: bold;
 }
-.articles .articles-boxes .article:hover i{
+.articles .articles-boxes .article:hover svg{
     animation: arrow-move 0.6s infinite;
 }
 
@@ -843,7 +843,7 @@ header .mega-menu .links-menu .links .link:hover::before{
 .services .container .services-boxes .service-box:hover::before{
     width: 100%;
 }
-.services .services-boxes .service-box .service-image i{
+.services .services-boxes .service-box .service-image svg{
     color: var(--dark-border);
     font-size: 60px;
     padding: 25px;
@@ -1146,7 +1146,7 @@ header .mega-menu .links-menu .links .link:hover::before{
 .pricing-plans .pricing .advanced .plan-cost::after{
     content: "";
     position: absolute;
-    top: 105px;
+    top: 115px;
     right: 20px;
     border: 20px solid;
     border-color: transparent transparent white;
@@ -1275,7 +1275,7 @@ header .mega-menu .links-menu .links .link:hover::before{
 
 /* start our awesome stats */
 .stats{
-    background-image: url(https://raw.githubusercontent.com/ElzeroWebSchool/HTML_And_CSS_Template_Three/main/imgs/stats.jpg);
+    background-image: url(../imgs/stats.jpg);
     position: relative;
     background-size: cover;
 }
@@ -1330,7 +1330,7 @@ header .mega-menu .links-menu .links .link:hover::before{
     bottom: 0;
     left: 0;
 }
-.stats .stats-boxes .stats-box i{
+.stats .stats-boxes .stats-box svg{
     font-size: 32px;
 }
 .stats .stats-boxes .stats-box span{
@@ -1431,10 +1431,10 @@ header .mega-menu .links-menu .links .link:hover::before{
 /* start animation */
 @keyframes change-background {
     0%,100%{
-        background-image: url(https://raw.githubusercontent.com/ElzeroWebSchool/HTML_And_CSS_Template_Three/main/imgs/discount-background1.jpg);
+        background-image: url(../imgs/discount-background1.jpg);
     }
     50%{
-        background-image: url(https://raw.githubusercontent.com/ElzeroWebSchool/HTML_And_CSS_Template_Three/main/imgs/discount-background2.jpg);
+        background-image: url(../imgs/discount-background2.jpg);
     }
 }
 
@@ -1530,7 +1530,7 @@ footer .container .info div{
     align-items: center;
     color: rgb(181, 172, 172);
 }
-footer .container .info div i{
+footer .container .info div svg{
     color: var(--main-color);
     font-size: 25px;
 }
@@ -1549,7 +1549,7 @@ footer .footer{
     padding: 10px;
     text-align: center;
 }
-footer .footer p i{
+footer .footer p svg{
     color: #f44336;
 }
 footer .footer p span{
