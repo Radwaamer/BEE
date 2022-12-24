@@ -937,6 +937,9 @@ header .mega-menu .links-menu .links .link:hover::before{
     justify-content: space-between;
     gap: 100px;
 }
+.how-it-works .works .works-image img{
+    max-width: 100%;
+}
 .how-it-works .works .works-boxes .work-box{
     display: flex;
     align-items: center;
@@ -1064,6 +1067,7 @@ header .mega-menu .links-menu .links .link:hover::before{
     padding: 20px;
     border-radius: 50px;
     width: 400px;
+    max-width: 100%;
 }
 .latest-events .events .events-form [type="email"]::placeholder{
     transition: var(--main-transition);
