@@ -1058,6 +1058,7 @@ header .mega-menu .links-menu .links .link:hover::before{
     width: fit-content;
     margin: calc( var(--padding) - 20px) auto;
     border-radius: 50px;
+    max-width: 100%;
 }
 .latest-events .events .events-form [type="email"]{
     background-color: white;
